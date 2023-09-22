@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eliminar">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="407dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="116dp"
+        android:text="ELIMINACION DE USUARIO"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="2dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/eliminado"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:background="@drawable/borde_de_texto"
+        android:ems="10"
+        android:hint="Ingrese cédula a eliminar"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.468" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="117dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="236dp"
+        android:background="@color/purple_700"
+        android:text="ELIMINAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="528dp"
+        android:text="Volver"
+        app:icon="?attr/homeAsUpIndicator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

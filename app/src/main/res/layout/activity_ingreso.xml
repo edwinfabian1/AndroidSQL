@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ingreso">
+
+    <Button
+        android:id="@+id/continuar"
+        android:layout_width="141dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="532dp"
+        android:text="Continuar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/boxDoc"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/borde_de_texto"
+
+        android:ems="10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/boxPassword"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/borde_de_texto"
+        android:ems="10"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/boxEstado"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="348dp"
+        android:background="@drawable/borde_de_texto"
+        android:ems="10"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/boxFecha"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/borde_de_texto"
+        android:ems="10"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-black"
+        android:text="INGRESAR"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="81dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="408dp"
+        android:text="Fecha: "
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="96dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="224dp"
+        android:text="Cedula: "
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="92dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="288dp"
+        android:text="Contraseña: "
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="84dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="348dp"
+        android:text="Estado: "
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="146dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="532dp"
+        android:text="Volver"
+        app:icon="?attr/homeAsUpIndicator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="364dp"
+        android:layout_height="13dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/purple_700"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="26dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple_700"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="22dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0.9dp"
+        android:layout_height="645dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/cardview_dark_background"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="49dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0.9dp"
+        android:layout_height="645dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_dark_background"
+
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="49dp"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
